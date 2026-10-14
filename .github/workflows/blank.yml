@@ -1,6 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
-name: ${{ github.actor }}
+name: CI
+run-name: ${{ github.actor }}
 
 env:
   GITHUB_ACTIONS: "true"
